@@ -5,7 +5,13 @@ import sitemap from '@astrojs/sitemap';
 import robotsTxt from 'astro-robots-txt';
 import { astroImageTools } from 'astro-imagetools';
 
-import vue from "@astrojs/vue";
+import vue from '@astrojs/vue';
+
+// Para LaTex
+import mdx from '@astrojs/mdx';
+
+// Para TresJS
+import { templateCompilerOptions } from '@tresjs/core'; 
 
 // https://astro.build/config
 export default defineConfig({
@@ -18,8 +24,18 @@ export default defineConfig({
     shikiConfig: {
       // Choose from Shiki's built-in themes (or add your own)
       // https://github.com/shikijs/shiki/blob/main/docs/themes.md
-      theme: 'monokai'
-    }
+      theme: 'monokai',
+    },
   },
-  integrations: [react(), tailwind({}), sitemap(), robotsTxt(), astroImageTools, vue()]
+  integrations: [
+    react(),
+    tailwind({}),
+    sitemap(),
+    robotsTxt(),
+    astroImageTools,
+    vue({
+      ...templateCompilerOptions
+    }),
+    mdx(),
+  ],
 });
