@@ -15,15 +15,24 @@ const Hero = () => (
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
+          Soy un vaquero de consola apasionado por{' '}
           <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
+            matematicas
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
+          y{' '}
           <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
+            Poesia
           </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          por otro lado , me causan insomnio:{' '}
+          <a className="text-cyan-400 hover:underline" href="/">
+            Kaggle
+          </a>{' '}
+          y los{' '}
+          <a className="text-cyan-400 hover:underline" href="/">
+            Gatos
+          </a>{' '}
+          además he trabajado en proyectos de Desarrollo web con experiencias
+          3D.{''}
         </>
       }
       avatar={

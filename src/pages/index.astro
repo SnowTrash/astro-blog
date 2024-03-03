@@ -28,12 +28,12 @@ export const f2 = '\\overbrace{a+b+c}^{\\text{a sum of three numbers}}';
 ---
 
 <Base head={{ title, description }}>
-  <TheExperience client:load />
   <Latex formula='E=mc^2' />
   <Latex formula={f1} />
-  <Latex formula={f2} />
   <Hero />
+  <Latex formula={f2} />
   <Sponsors />
+  <TheExperience client:load />
   <ProjectList />
   <RecentPosts postList={lastThreePosts} />
   <CTA />

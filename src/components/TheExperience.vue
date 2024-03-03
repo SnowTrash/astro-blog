@@ -1,10 +1,13 @@
 <script setup lang="ts">
 
-import { TresCanvas } from '@tresjs/core'
+import { TresCanvas } from '@tresjs/core';
 
 import { BasicShadowMap, SRGBColorSpace, NoToneMapping } from 'three'
 
-import { OrbitControls } from '@tresjs/cientos'
+import { OrbitControls , Stars } from '@tresjs/cientos';
+
+// importar cat
+import CatSkull from './Catskull.vue';
 
 const gl = {
   clearColor: '#181C3E',
@@ -31,9 +34,15 @@ const gl = {
         <TresTorusGeometry :args="[1, 0.5, 16, 32]" />
         <TresMeshBasicMaterial color="orange" />
       </TresMesh>
-      <TresAmbientLight :intensity="1" />
+      <Stars />
+      <TresAmbientLight :intensity="1" :color="0xffffff"/>
+      <TresDirectionalLight  :color="0xffffff" :intensity="1.4" :position="[0,0,5]" />
 
     <OrbitControls />
+    <!-- modelo custom -->
+      <Suspense>
+        <CatSkull />
+      </Suspense>
     </TresCanvas>
     Hola vue
   </div>
