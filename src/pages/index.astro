@@ -10,6 +10,9 @@ import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
 import { sortByDate } from '@/utils/Posts';
 
+// nuevo componente
+import TheExperience  from '../components/TheExperience.vue';
+
 const allPosts = await Astro.glob<IFrontmatter>('./posts/*.md');
 const sortedPosts = sortByDate(allPosts);
 const lastThreePosts = sortedPosts.slice(0, 3);
@@ -19,6 +22,7 @@ const { description } = AppConfig;
 ---
 
 <Base head={{ title, description }}>
+  <TheExperience client:load/>
   <Hero />
   <Sponsors />
   <ProjectList />
