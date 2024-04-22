@@ -22,6 +22,7 @@ const gl = {
 
 <template>
   <div class="tres-container">
+    TheExperience.vue - Element
     <TresCanvas v-bind="gl">
 
     <TresPerspectiveCamera
@@ -44,7 +45,7 @@ const gl = {
         <CatSkull />
       </Suspense>
     </TresCanvas>
-    Hola vue
+    TheExperience.vue - Element
   </div>
 </template>
 

@@ -12,6 +12,8 @@ import { sortByDate } from '@/utils/Posts';
 
 // Nuevo Componente LaTex
 import Latex from '../components/LaTex.astro';
+// Importando Resorte
+import Resorte from '../components/Nonlinear/elResorte0.vue';
 // nuevo componente TresJs
 import TheExperience from '../components/TheExperience.vue';
 
@@ -32,9 +34,10 @@ export const f2 = '\\overbrace{a+b+c}^{\\text{a sum of three numbers}}';
   <Latex formula={f1} />
   <Hero />
   <Latex formula={f2} />
-  <Sponsors />
   <TheExperience client:load />
   <ProjectList />
   <RecentPosts postList={lastThreePosts} />
+  <Resorte client:load />
+  <Sponsors />
   <CTA />
 </Base>
