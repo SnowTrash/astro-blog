@@ -13,7 +13,11 @@ import { sortByDate } from '@/utils/Posts';
 // Nuevo Componente LaTex
 import Latex from '../components/LaTex.astro';
 // Importando Resorte
-import Resorte from '../components/Nonlinear/elResorte0.vue';
+// import Resorte from '../components/Nonlinear/elResorte0.vue';
+// Componente p5
+import P5Canvas from '../components/Nonlinear/p5Canvas.vue';
+// Componente p5_flowfields
+import P5FlowField from '../components/Nonlinear/p5FlowField.vue';
 // nuevo componente TresJs
 import TheExperience from '../components/TheExperience.vue';
 
@@ -30,14 +34,16 @@ export const f2 = '\\overbrace{a+b+c}^{\\text{a sum of three numbers}}';
 ---
 
 <Base head={{ title, description }}>
-  <Latex formula='E=mc^2' />
-  <Latex formula={f1} />
   <Hero />
+  <RecentPosts postList={lastThreePosts} />
+  <ProjectList />
   <Latex formula={f2} />
   <TheExperience client:load />
-  <ProjectList />
-  <RecentPosts postList={lastThreePosts} />
-  <Resorte client:load />
+  <Latex formula='E=mc^2' />
+  <Latex formula={f1} />
+  <!-- <Resorte client:load /> -->
+  <P5Canvas client:only />
+  <P5FlowField client:only />
   <Sponsors />
   <CTA />
 </Base>

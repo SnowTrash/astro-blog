@@ -39,7 +39,7 @@ const gl = {
     <OrbitControls />
 
     </TresCanvas>
-    elResorte0.vue 
+    elResorte0.vue <br />
   </div>
 </template>
 

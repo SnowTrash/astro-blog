@@ -21,3 +21,7 @@ pnpm-debug.log*
 *.pem
 Thumbs.db
 .history
+.ign
+.opp
+.diagram
+.notes

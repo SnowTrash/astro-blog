@@ -49,7 +49,8 @@
     "prettier": "^2.6.2",
     "prettier-plugin-astro": "0.1.0-next.5",
     "rimraf": "^5.0.5",
-    "tailwindcss": "^3.3.6"
+    "tailwindcss": "^3.3.6",
+    "vue-p5": "^0.8.4"
   },
   "dependencies": {
     "@astrojs/mdx": "^2.1.1",
@@ -68,5 +69,8 @@
   "volta": {
     "node": "16.15.1"
   },
-  "author": "Ixartz (https://github.com/ixartz)"
+  "authors": {
+    "initial template": "Ixartz (https://github.com/ixartz)",
+    "content & personalization": "Snow Trash (https://github.com/SnowTrash)"
+  }
 }

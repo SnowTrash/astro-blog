@@ -34,8 +34,13 @@ const Navbar = () => (
 
       <NavMenu>
         <NavMenuItem href="/posts/">Blogs</NavMenuItem>
-        <NavMenuItem href="/">GitHub</NavMenuItem>
-        <NavMenuItem href="/">Twitter</NavMenuItem>
+        <NavMenuItem href="https://github.com/SnowTrash">GitHub</NavMenuItem>
+        <NavMenuItem href="https://www.kaggle.com/snowtrash">
+          Kaggle
+        </NavMenuItem>
+        <NavMenuItem href="https://public.tableau.com/app/profile/juan.l.pez7306/vizzes">
+          Tableau
+        </NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>

@@ -11,8 +11,6 @@ https://github.com/Tresjs/cientos
 https://lab.tresjs.org/
 
 
-
-
 #### Haciendo post de UX miestras hacemos el curso
 
 
