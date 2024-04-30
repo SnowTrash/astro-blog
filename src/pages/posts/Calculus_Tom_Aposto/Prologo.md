@@ -2,7 +2,7 @@
 layout: '@/templates/BasePost.astro'
 title: Calculus aposto - Prologo
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
-pubDate: 02/11/2022
+pubDate: 2022-02-06T00:00:00Z
 imgSrc: '/assets/images/image-post.jpeg'
 imgAlt: 'Image post'
 ---
