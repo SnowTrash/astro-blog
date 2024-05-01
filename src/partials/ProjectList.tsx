@@ -16,51 +16,55 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="Visita Chapala - Google Sites"
+        description="Proyecto simple de investigación e incrustados varios acerca del Lago de Chapala"
+        link="https://sites.google.com/alumnos.udg.mx/visitchapala"
         img={{
-          src: '/assets/images/project-web-design.png',
+          src: '/assets/images/project-maps.png',
           alt: 'Project Web Design',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Google Sites</Tags>
+            <Tags color={ColorTags.LIME}>Audio</Tags>
+            <Tags color={ColorTags.SKY}>Writing</Tags>
           </>
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        name="IArte UDG"
+        description="Comprendido por una landing page, 
+        formulario de registro y una galería 3D realizados en el
+        marco del concurso de Arte generado por IA de la Universidad de Guadalajara"
+        link="https://iarte.inventores.org/"
+        img={{
+          src: '/assets/images/project-web-design.png',
+          alt: 'Project Fire',
+        }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Three.js</Tags>
+            <Tags color={ColorTags.VIOLET}>PHP</Tags>
             <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
           </>
         }
       />
       <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        name="Blog autogestivo con .Astro"
+        description="Proyecto de buenas prácticas y aprendizaje de astro 
+        hecha con TypeScript & React estilizada mediante Tailwind CSS ⚡️ 
+        TypeScript + ESLint + Prettier + Husky + Lint-Staged + Commitlint + VSCode"
+        link="https://github.com/SnowTrash/astro-blog"
+        img={{
+          src: '/assets/images/project-fire.png',
+          alt: 'Project Maps',
+        }}
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.INDIGO}>LaTex</Tags>
+            <Tags color={ColorTags.ROSE}>Firebase</Tags>
+            <Tags color={ColorTags.VIOLET}>Tres.js</Tags>
           </>
         }
       />

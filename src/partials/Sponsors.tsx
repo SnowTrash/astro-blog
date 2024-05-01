@@ -1,26 +1,22 @@
 import { Section } from 'astro-boilerplate-components';
 
-import betterStackLogo from '../../public/assets/images/better-stack-white.png';
 import clerkLogo from '../../public/assets/images/clerk.png';
-import crowdinLogo from '../../public/assets/images/crowdin-white.png';
-import nextlessLogo from '../../public/assets/images/nextlessjs.png';
-import sentryLogo from '../../public/assets/images/sentry-white.png';
 import tursoLogo from '../../public/assets/images/turso.png';
 
 const Sponsors = () => (
   <Section title="Sponsors">
     <table className="mx-auto border-collapse">
       <tbody>
-        <tr className="h-56">
-          <td className="border-2 border-gray-300 p-3">
+        {/* <tr className="h-56">
+           <td className="border-2 border-gray-300 p-3">
             <a
               href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
               target="_blank"
             >
               <img src={sentryLogo.src} alt="Sentry" width={260} height={224} />
             </a>
-          </td>
-          <td className="border-2 border-gray-300 p-3">
+          </td> */}
+        {/* <td className="border-2 border-gray-300 p-3">
             <a
               href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
               target="_blank"
@@ -32,8 +28,8 @@ const Sponsors = () => (
                 height={224}
               />
             </a>
-          </td>
-          <td className="border-2 border-gray-300 p-3">
+          </td> */}
+        {/* <td className="border-2 border-gray-300 p-3">
             <a href="https://nextlessjs.com">
               <img
                 src={nextlessLogo.src}
@@ -42,8 +38,8 @@ const Sponsors = () => (
                 height={224}
               />
             </a>
-          </td>
-        </tr>
+          </td> 
+        </tr> */}
         <tr className="h-56">
           <td className="border-2 border-gray-300 p-3">
             <a
@@ -71,7 +67,7 @@ const Sponsors = () => (
               />
             </a>
           </td>
-          <td className="border-2 border-gray-300 p-3">
+          {/* <td className="border-2 border-gray-300 p-3">
             <a href="https://l.crowdin.com/next-js" target="_blank">
               <img
                 src={crowdinLogo.src}
@@ -80,7 +76,7 @@ const Sponsors = () => (
                 height={224}
               />
             </a>
-          </td>
+          </td> */}
         </tr>
       </tbody>
     </table>

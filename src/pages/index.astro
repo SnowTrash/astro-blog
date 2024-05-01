@@ -12,14 +12,14 @@ import { sortByDate } from '@/utils/Posts';
 
 // Nuevo Componente LaTex
 import Latex from '../components/LaTex.astro';
+// Componente p5
+import P5Canvas from '../components/p5/p5Canvas.vue';
 // Importando Resorte
 // import Resorte from '../components/Nonlinear/elResorte0.vue';
-// Componente p5
-import P5Canvas from '../components/Nonlinear/p5Canvas.vue';
 // Componente p5_flowfields
-import P5FlowField from '../components/Nonlinear/p5FlowField.vue';
+import P5FlowField from '../components/p5/p5FlowField.vue';
 // nuevo componente TresJs
-import TheExperience from '../components/TheExperience.vue';
+import TheExperience from '../components/three/TheExperience.vue';
 
 const allPosts = await Astro.glob<IFrontmatter>('./posts/*.md');
 const sortedPosts = sortByDate(allPosts);
@@ -27,6 +27,7 @@ const lastThreePosts = sortedPosts.slice(0, 3);
 
 const { title } = AppConfig;
 const { description } = AppConfig;
+const { author } = AppConfig;
 
 // Variables para mostrar en LaTex
 export const f1 = '\\begin{bmatrix}a & b \\\\ c & d\\end{bmatrix}';
@@ -37,13 +38,13 @@ export const f2 = '\\overbrace{a+b+c}^{\\text{a sum of three numbers}}';
   <Hero />
   <ProjectList />
   <RecentPosts postList={lastThreePosts} />
-  <Latex formula={f2} />
-  <TheExperience client:load />
   <Latex formula='E=mc^2' />
   <Latex formula={f1} />
+  <Latex formula={f2} />
+  {author === 'Snow_Tras' ? <TheExperience client:load /> : <p />}
   <!-- <Resorte client:load /> -->
-  <P5Canvas client:only />
-  <P5FlowField client:only />
+  {author === 'Snow_Tras' ? <P5Canvas client:only /> : <p />}
+  {author === 'Snow_Tras' ? <P5FlowField client:only /> : <p />}
   <Sponsors />
   <CTA />
 </Base>

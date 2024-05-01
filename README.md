@@ -88,6 +88,7 @@ A complete Blog feature:
 - ⬇️ Markdown
 - 📦 Image lazy loading
 - 💎 Responsive design
+- 🧮 3D & LaTex Features
 
 Developer experience first:
 

@@ -28,19 +28,14 @@ const Navbar = () => (
               <path d="M4 20h14"></path>
             </svg>
           }
-          name="Snow Trash - Blog"
+          name="Snow Trash"
         />
       </a>
 
       <NavMenu>
         <NavMenuItem href="/posts/">Blogs</NavMenuItem>
-        <NavMenuItem href="https://github.com/SnowTrash">GitHub</NavMenuItem>
-        <NavMenuItem href="https://www.kaggle.com/snowtrash">
-          Kaggle
-        </NavMenuItem>
-        <NavMenuItem href="https://public.tableau.com/app/profile/juan.l.pez7306/vizzes">
-          Tableau
-        </NavMenuItem>
+        <NavMenuItem href="/posts/">3D</NavMenuItem>
+        <NavMenuItem href="/posts/">Data Analysis</NavMenuItem>
       </NavMenu>
     </NavbarTwoColumns>
   </Section>

@@ -10,63 +10,64 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hola , I'm <GradientText>Snow Trash</GradientText> 👋
+          Hola , I'm <GradientText>Snow Trash</GradientText> 🪴
         </>
       }
       description={
         <>
-          Soy un vaquero de consola apasionado por{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            matematicas
+          Vaquero de consola apasionado a las{' '}
+          <a className="text-cyan-400 hover:underline" href="/posts/">
+            Matematicas
           </a>{' '}
-          y{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
+          y la{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="http://snowtrash.github.io/"
+          >
             Poesia
           </a>{' '}
-          por otro lado , me causan insomnio:{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            Kaggle
+          además me causan insomnio los{' '}
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://medium.com/@juan.vargas2962"
+          >
+            Datos
           </a>{' '}
           y los{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
+          <a
+            className="text-cyan-400 hover:underline"
+            href="https://sketchfab.com/juan.vargas2962"
+          >
             Gatos
           </a>{' '}
-          además he trabajado en proyectos de Desarrollo web con experiencias
-          3D.{''}
         </>
       }
       avatar={
         <img
           className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          src="/assets/images/cat-bird.jpg"
           alt="Avatar image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
+          <a href="https://www.kaggle.com/snowtrash">
+            <HeroSocial src="/assets/images/kaggle-name.svg" alt="Kaggle" />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
+          <a href="https://github.com/SnowTrash">
+            <HeroSocial src="/assets/images/github-142.svg" alt="Github icon" />
           </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/juanvargasudg/">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
+          <a href="https://public.tableau.com/app/profile/juan.l.pez7306/vizzes">
             <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
+              src="/assets/images/tableau-icon.svg"
+              alt="Tableau icon"
             />
           </a>
         </>
