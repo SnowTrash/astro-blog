@@ -123,6 +123,7 @@ export default {
 <style scoped>
 #p5-container {
   width: 100%;
-  height: 1000px; /* Adjust according to the size of the canvas */
+  height: 400px; /* Adjust according to the size of the canvas */
+  padding-left: 30%;
 }
 </style>

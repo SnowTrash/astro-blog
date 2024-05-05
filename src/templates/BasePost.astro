@@ -7,6 +7,9 @@ import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
 // Componente p5_flowfields
 import P5FlowField from '../components/p5/p5FlowField.vue';
+// Componente Craneo de gato
+import TheExperience from '../components/three/TheExperience.vue';
+
 
 export interface Props {
   content: IFrontmatter;
@@ -14,12 +17,24 @@ export interface Props {
 
 const { content } = Astro.props as Props;
 const title = `${content.title} - ${AppConfig.site_name}`;
+
+// Nuevo Componente LaTex
+import Latex from '../components/LaTex.astro';
+
+
+// Importa el archivo de datos
+import examData from '../components/ltx/test0_algebra.json';
+
 ---
 
 <Base head={{ title, description: content.description }}>
   <BlogPost frontmatter={content}>
     <slot></slot>
   </BlogPost>
-  {title === 'Flow fields - Snow_Trash' ? <P5FlowField client:only /> : <p>{title}</p>}
+  {title === 'Examen Diagnóstico - álgebra - Snow_Trash' && examData.body.map((line) => (
+    <Latex formula={line} />
+  ))}
+  {title === 'Flow fields - Snow_Trash' ? <P5FlowField client:only /> : <p />}
+  {title === 'Cat skull - Snow_Trash' ? <TheExperience client:load /> : <p />}
   <CTA />
 </Base>
