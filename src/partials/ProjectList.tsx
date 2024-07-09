@@ -52,23 +52,23 @@ const ProjectList = () => (
           </>
         }
       />
+      <Project
+        name="Visita Chapala - Google Sites"
+        description="Proyecto simple de investigación e incrustados varios acerca del Lago de Chapala"
+        link="https://sites.google.com/alumnos.udg.mx/visitchapala"
+        img={{
+          src: '/assets/images/project-maps.png',
+          alt: 'Project Web Design',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Google Sites</Tags>
+            <Tags color={ColorTags.LIME}>Audio</Tags>
+            <Tags color={ColorTags.SKY}>Writing</Tags>
+          </>
+        }
+      />
     </div>
-    <Project
-      name="Visita Chapala - Google Sites"
-      description="Proyecto simple de investigación e incrustados varios acerca del Lago de Chapala"
-      link="https://sites.google.com/alumnos.udg.mx/visitchapala"
-      img={{
-        src: '/assets/images/project-maps.png',
-        alt: 'Project Web Design',
-      }}
-      category={
-        <>
-          <Tags color={ColorTags.FUCHSIA}>Google Sites</Tags>
-          <Tags color={ColorTags.LIME}>Audio</Tags>
-          <Tags color={ColorTags.SKY}>Writing</Tags>
-        </>
-      }
-    />
   </Section>
 );
 

@@ -1,12 +1,3 @@
----
-layout: '@/templates/BasePost.astro'
-title: Typography example
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
-pubDate: 2020-08-06T00:00:00Z
-imgSrc: '/assets/images/image-post.jpeg'
-imgAlt: 'Image post'
----
-
 ## Consejos para la página desde el curso de UX
 
 ### Nombre y logotipo personal (si tienes). 
@@ -68,20 +59,13 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non m
 
 6. Ser tú mismo
 
+
+
 ## List types
+S
 
-### Ordered list
-
-1. List item 1
-2. List item 2
-   1. Nested list item A
-   2. Nested list item B
-3. List item 3
-
-### Unordered list
 
 Aprende a hablar sobre tí - Crea tu marca personal
-
 
 - [Plantilla para empezar](https://docs.google.com/document/d/1HTStD6ZJvtQ3HdL-BnE_RylAZDqHpcTW3VP8_FntggQ/template/preview)
 
@@ -91,6 +75,7 @@ Aprende a hablar sobre tí - Crea tu marca personal
 
 - www.shabnamkashani.com/kashani-about
 
+<!-- Ejemplos del about -->
 
 Tarea:
 Redacta tu página Acerca de mí para tu portfolio web en un nuevo documento en blanco.
@@ -152,7 +137,6 @@ Asegúrate de aplicar la misma combinación de colores y fuentes a todos tus per
 - este blog
 
 
-
 ### Ahora a comparar linkedins
 
 https://www.linkedin.com/in/shabnamkashani/
@@ -165,11 +149,10 @@ https://www.linkedin.com/in/tongfang-sun-a7b6b394/
 
 
 
-CREAR UN AVATAR PARA EL HERO.tsx porfa
-https://www.creartuavatar.com/
-https://www.creartuavatar.com/
-https://www.creartuavatar.com/
+CREAR UN AVATAR ???
+
+-------------------
+--------------------------------------------
 
 
-MODIFICAR EL idex.astro para agregar los iconos del github en lugar de FB, TWter, Youtube
-Quitar  de la barra de navegación los links que agregué yo creo
+Cuadro de empatía, acrividad que no hemos hesho hehe

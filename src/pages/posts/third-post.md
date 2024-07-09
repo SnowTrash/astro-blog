@@ -12,4 +12,9 @@ imgAlt: 'Image post 6'
 - [D3.js and Vue.JS](https://levelup.gitconnected.com/d3-js-and-vue-js-7a6a721eb79f)
 - [D3: Responsive and Dynamic Visualizations for Data and Other Easy Recipes](https://betterprogramming.pub/d3-responsive-and-dynamic-visualizations-for-data-and-other-easy-recipes-68e37b451822)
 - []()
+
+
+JAMES STEWART -- McMASTER UNIVERSITY Y UNIVERSITY OF TORONTO
+CÁLCULO DE UNA VARIABLE TRASCENDENTES TEMPRANAS SÉPTIMA EDICIÓN
+
 Full typography example at [this page](./example-post).

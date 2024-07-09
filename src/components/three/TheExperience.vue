@@ -2,7 +2,7 @@
 
   import { TresCanvas } from '@tresjs/core';
 
-  import { BasicShadowMap, SRGBColorSpace, NoToneMapping } from 'three'
+  import { BasicShadowMap, SRGBColorSpace, NoToneMapping  } from 'three'
 
   import { OrbitControls , Stars } from '@tresjs/cientos';
 
@@ -10,10 +10,7 @@
   // import CatSkull from './Catskull.vue';
   import { onMounted, defineAsyncComponent } from 'vue';
   const CatSkull = defineAsyncComponent(() => import('./Catskull.vue'));
-  onMounted(() => {
-    // Código que necesita CatSkull después de que esté cargado
-  });
-
+  
   const gl = {
     clearColor: '#181C3E',
     shadows: true,
@@ -22,6 +19,7 @@
     outputColorSpace: SRGBColorSpace,
     toneMapping: NoToneMapping,
   }
+  
 
   </script>
 
@@ -31,18 +29,18 @@
       <TresCanvas v-bind="gl">
 
       <TresPerspectiveCamera
-        :position="[3, 3, 3]"
+        :position="[190, 0, 50]"
         :fov="45"
         :look-at="[0, 0, 0]"
       />
 
-        <TresMesh>
+        <TresMesh >
           <TresTorusGeometry :args="[1, 0.5, 16, 32]" />
           <TresMeshBasicMaterial color="orange" />
         </TresMesh>
-        <Stars />
-        <TresAmbientLight :intensity="1" :color="0xffffff"/>
-        <TresDirectionalLight  :color="0xffffff" :intensity="1.4" :position="[0,0,5]" />
+        <!-- <Stars /> -->
+        <TresAmbientLight :intensity="1.4" :color="0xffff99"/>
+        <TresDirectionalLight :color="0x6666ff" :intensity="1.8" :position="[0,0,5]" />
 
       <OrbitControls />
       <!-- modelo custom -->
@@ -73,4 +71,4 @@
 
   }
 
-  </style>
+  </style>import { de } from 'date-fns/locale';
