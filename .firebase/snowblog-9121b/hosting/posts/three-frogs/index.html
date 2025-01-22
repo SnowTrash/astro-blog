@@ -1,0 +1,146 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Three Frogs oscilator - Snow_Trash</title><meta name="description" content="Problema del libro de caos y dinámica no linear, capitulo 8.6.2"><meta name="author" content="Snow_Trash"><link rel="alternate" type="application/rss+xml" href="/rss.xml"><link rel="icon" type="image/x-icon" href="/assets/images/cat-uno.svg"><link rel="stylesheet" href="/_astro/index.b2VAuU8k.css" />
+<style>.tres-container{width:100%;height:400px}.canvas{width:100%;height:100%}
+#p5-container[data-v-4a5a025a]{width:100%;height:400px;padding-left:30%}
+</style></head> <body class="bg-slate-900 text-gray-100"> <div class="mx-auto max-w-screen-lg px-3 py-6"><div class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between"><a href="/"><div class="flex items-center bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-xl font-bold text-transparent"><svg class="mr-1 h-10 w-10 stroke-cyan-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0h24v24H0z" stroke="none"></path><rect x="3" y="12" width="6" height="8" rx="1"></rect><rect x="9" y="8" width="6" height="12" rx="1"></rect><rect x="15" y="4" width="6" height="16" rx="1"></rect><path d="M4 20h14"></path></svg>Snow Trash</div></a><nav><ul class="flex gap-x-3 font-medium text-gray-200"><li class="hover:text-white"><a href="/posts/" target="_self">Blogs</a></li><li class="hover:text-white"><a href="/posts/" target="_self">3D</a></li><li class="hover:text-white"><a href="/posts/" target="_self">Data Analysis</a></li></ul></nav></div></div>  <div class="mx-auto max-w-screen-lg px-3 py-6"><h1 class="text-center text-3xl font-bold">Three Frogs oscilator</h1><div class="mt-2 text-center text-sm text-gray-400">By <!-- -->Snow_Trash<!-- --> on<!-- --> <!-- -->Feb 5, 2020</div><div class="mx-auto mt-5 max-w-prose"><div class="aspect-w-3 aspect-h-2"><img class="h-full w-full rounded-lg object-cover object-center" src="/assets/images/image-post.jpeg" alt="Image post" loading="lazy"/></div><div class="prose prose-invert mt-8 prose-img:rounded-lg"> <p>8.6.9
+(Japanese tree frogs) Many thanks to Bard Ermentrout for suggesting the
+following exercise. An isolated male Japanese tree frog will call nearly periodically.
+When two frogs are placed close together (say, 50 cm apart), they can hear each
+other calling and tend to adjust their croak rhythms so that they call in alternation,
+half a cycle apart—a form of phase-locking known as antiphase synchronization.
+So what happens when three frogs interact? This situation frustrates them;
+there’s no way all three can get half a cycle away from everyone else. Aihara et al.
+(2011) found experimentally that in this case, the three frogs settle into one of two
+distinctive patterns (and they occasionally seem to switch between them, probably
+due to noise in the environment). One stable pattern involves a pair of frogs calling
+in unison, with the third frog calling approximately half a cycle out of phase from
+both of them. The other stable pattern has the three frogs maximally out of sync,
+with each calling one-third of a cycle apart from the other two.
+Aihara et al. (2011) explored a coupled oscillator model of these phenomena, the
+essence of which is contained in the following systems for two frogs,
+θ1 = ω + H (θ2 − θ1 )
+θ = ω + H (θ − θ ),
+2
+1
+2
+and three frogs,
+θ1 = ω + H (θ2 − θ1 ) + H (θ3 − θ1 )
+θ = ω + H (θ − θ ) + H (θ − θ )
+2
+1
+2
+3
+2
+θ3 = ω + H (θ1 − θ3 ) + H (θ2 − θ3 ).
+Here Ri denotes the phase of the calling rhythm of frog i, and the function H
+quantifies the interaction between any two of them. For simplicity we’ll assume all
+the frogs are identically coupled (same H for all of them) and have identical natural
+frequencies X . Furthermore, assume that H is odd, smooth, and 2Q-periodic.
+a) Rewrite the systems for both two and three frogs in terms of the phase differ-
+ences φ = θ1 − θ2 and ψ = θ2 − θ3 .
+b) Show that the experimental results for two frogs are consistent with the simplest
+possible interaction function, H ( x )  a sin x , if the sign of a is chosen appro-
+priately. But then show that this simple H cannot account for the three-frog
+results.
+c) Next, consider more complicated interaction functions of the form
+H ( x ) = a sin x + b sin 2 x . For the three-frog model, use a computer to plot the
+phase portraits in the (φ, ψ ) plane for various values of a and b. Show that for
+suitable choices of a and b, you can explain all the experimental results for two
+and three frogs. That is, you can find a domain in the ( a, b ) parameter space for
+which the system has:</p>
+<p>i) a stable antiphase solution for the two-frog model;
+ii) a stable phase-locked solution for the three-frog model, in which
+frogs 1 and 2 are in sync and approximately Q out of phase from
+frog 3;
+iii) a co-existing stable phase-locked solution with the three frogs one-
+third of a cycle apart.
+d) Show numerically that adding a small even periodic component to H does not
+alter these results qualitatively.
+Caveat: The three-frog model studied here is more symmetrical than that con-
+sidered by Aihara et al. (2011). They assumed unequal coupling strengths because
+in their experiments one frog was positioned midway between the other two. The
+frogs at either end therefore interacted less strongly with each other than with the
+frog in the middle.</p>
+<h2 id="h2-for-example">H2 For example</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.</p>
+<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+<p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
+<h2 id="blockquotes">Blockquotes</h2>
+<blockquote>
+<p>Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.</p>
+</blockquote>
+<h3 id="mixed-list">Mixed list</h3>
+<ol>
+<li>First ordered list item</li>
+<li>Another item
+<ul>
+<li>Unordered sub-list.</li>
+</ul>
+</li>
+<li>Actual numbers don’t matter, just that it’s a number
+<ol>
+<li>Ordered sub-list</li>
+</ol>
+</li>
+<li>And another item.</li>
+</ol>
+<h2 id="links">Links</h2>
+<p><a href="https://www.google.com">Inline-style link</a></p>
+<p><a href="https://www.google.com" title="Google&#x27;s Homepage">Inline-style link with title</a></p>
+<p><a href="https://www.mozilla.org">Reference-style link</a></p>
+<p><a href="http://slashdot.org">You can use numbers for reference-style link definitions</a></p>
+<p>Or leave it empty and use the <a href="http://www.reddit.com">link text itself</a>.</p>
+<p>Some text to show that the reference links can follow later.</p>
+<h2 id="images">Images</h2>
+<p>Images included in <em>_posts</em> folder are lazy loaded.</p>
+<p>Inline-style:
+<img src="/src/images/random.jpeg" alt="alt text" title="Logo Title Text 1"></p>
+<h2 id="table">Table</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Tables</th><th align="center">Are</th><th align="right">Cool</th></tr></thead><tbody><tr><td>col 3 is</td><td align="center">right-aligned</td><td align="right">1600</td></tr><tr><td>col 2 is</td><td align="center">centered</td><td align="right">12</td></tr><tr><td>zebra stripes</td><td align="center">are neat</td><td align="right">1</td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Markdown</th><th>Less</th><th>Pretty</th></tr></thead><tbody><tr><td><em>Still</em></td><td><code>renders</code></td><td><strong>nicely</strong></td></tr><tr><td>1</td><td>2</td><td>3</td></tr></tbody></table> </div></div></div> <p></p><p></p><div class="mx-auto max-w-screen-lg px-3 py-6"><div class="flex flex-col items-center justify-between gap-6 sm:flex-row"><div class="sm:w-7/12"><div class="text-3xl font-bold">Subscribe to my <span class="bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-transparent">Newsletters</span></div><p class="mt-3 text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero
+          esse non molestias eos excepturi, inventore atque cupiditate.</p></div><div class="w-full sm:w-5/12"><form class="flex rounded-full bg-slate-800 px-4 py-2 focus-within:ring-2 focus-within:ring-cyan-600 hover:ring-2 hover:ring-cyan-600"><input class="w-full appearance-none bg-slate-800 focus:outline-none"/><button class="ml-2 shrink-0 rounded-full bg-gradient-to-br from-sky-500 to-cyan-400 px-3 py-1 text-sm font-medium hover:from-sky-700 hover:to-cyan-600 focus:outline-none focus:ring-2 focus:ring-cyan-600/50" type="submit">Subscribe</button></form></div></div></div>  <div class="mx-auto max-w-screen-lg px-3 py-6"><div class="border-t border-gray-600 pt-5"><div class="text-sm text-gray-200">© Copyright <!-- -->2024<!-- --> by <!-- -->Snow_Trash<!-- -->. Built with ♥ by<!-- --> <a class="text-cyan-400 hover:underline" href="https://creativedesignsguru.com" target="_blank" rel="noopener noreferrer">CreativeDesignsGuru</a>.</div></div></div> </body></html>

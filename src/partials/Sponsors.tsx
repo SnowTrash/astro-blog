@@ -1,14 +1,15 @@
 import { Section } from 'astro-boilerplate-components';
 
-import clerkLogo from '../../public/assets/images/clerk.png';
-import tursoLogo from '../../public/assets/images/turso.png';
+import astroLogo from '../../public/assets/images/astro-icon-light-gradient.svg';
+import firebaseLogo from '../../public/assets/images/firebase.svg';
+import githubLogo from '../../public/assets/images/github-mark.svg';
 
 const Sponsors = () => (
-  <Section title="Sponsors">
+  <Section title="Contruuido con: ">
     <table className="mx-auto border-collapse">
       <tbody>
-        {/* <tr className="h-56">
-           <td className="border-2 border-gray-300 p-3">
+        <tr className="max-h-40">
+          {/*  <td className="border-2 border-gray-300 p-3">
             <a
               href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
               target="_blank"
@@ -16,7 +17,7 @@ const Sponsors = () => (
               <img src={sentryLogo.src} alt="Sentry" width={260} height={224} />
             </a>
           </td> */}
-        {/* <td className="border-2 border-gray-300 p-3">
+          {/* <td className="border-2 border-gray-300 p-3">
             <a
               href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
               target="_blank"
@@ -29,41 +30,35 @@ const Sponsors = () => (
               />
             </a>
           </td> */}
-        {/* <td className="border-2 border-gray-300 p-3">
-            <a href="https://nextlessjs.com">
+          <td className="border-2 border-gray-300 p-3">
+            <a href="https://astro.build/">
               <img
-                src={nextlessLogo.src}
-                alt="React SaaS Boilerplate Next.js"
-                width={260}
-                height={224}
+                src={astroLogo.src}
+                alt="Astro Framework"
+                width={60}
+                height={24}
               />
             </a>
-          </td> 
-        </tr> */}
-        <tr className="h-56">
+          </td>
+        </tr>
+        <tr className="max-h-40">
           <td className="border-2 border-gray-300 p-3">
-            <a
-              href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate"
-              target="_blank"
-            >
+            <a href="https://firebase.google.com/" target="_blank">
               <img
-                src={clerkLogo.src}
-                alt="Clerk – Authentication & User Management for Next.js"
-                width={260}
-                height={224}
+                src={firebaseLogo.src}
+                alt="Autentificacion y Host mediante Firebase"
+                width={60}
+                height={24}
               />
             </a>
           </td>
           <td className="border-2 border-gray-300 p-3">
-            <a
-              href="https://turso.tech/?utm_source=nextjsstarterbp"
-              target="_blank"
-            >
+            <a href="https://github.com/" target="_blank">
               <img
-                src={tursoLogo.src}
-                alt="SQLite Developer Experience"
-                width={260}
-                height={224}
+                src={githubLogo.src}
+                alt="Github para control de versiones y almacenamiento"
+                width={60}
+                height={24}
               />
             </a>
           </td>

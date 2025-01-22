@@ -2,7 +2,7 @@
 layout: '@/templates/BasePost.astro'
 title: Cat skull - Cráneo del gato
 description: Articulo que sirve como recopilación de datos sobre el cráneo de los gatos(Felis Catus).
-pubDate: 2020-02-02T00:00:00Z
+pubDate: 2025-01-22T00:00:00Z
 imgSrc: '/assets/images/1-catSkull.png'
 imgAlt: 'Image post 5'
 ---
@@ -14,11 +14,11 @@ Iniciaremos con la lectura del siguiente [doi](https://doi.org/10.19052/mv.vol1.
 [Manuel Saldivia Paredes](https://enlinea.santotomas.cl/blog-expertos/guia-expertos/manuelsaldivia/) 
 [email](vetmanuelch@hotmail.com)
 
-La anatomía del cráneo del gato estudiada como fenómeno separado del cannis lupus familiaris es algo que se plantea en el paper, además de intentar saldar la deuda de información sobre el cráneo en lo general y las diferencia particulares que pueden tener los cráneos dependiendo la especie.
+<!-- La anatomía del cráneo del gato estudiada como fenómeno separado del cannis lupus familiaris es algo que se plantea en el paper, además de intentar saldar la deuda de información sobre el cráneo en lo general y las diferencia particulares que pueden tener los cráneos dependiendo la especie. -->
 
-#### Esplacnocráneo y Neurocráneo
+#### Esplacnocráneo y Neurocráneo ??
+
 el del gato siamés es dolicocéfalo y el del gato persa, braquicéfalo.
-
 Huesos faciales y huesos craneales.
 
 Los huesos faciales(Esplacnocráneo) se encuentran por pares 
@@ -33,11 +33,10 @@ Los huesos faciales(Esplacnocráneo) se encuentran por pares
 - Hueso hioides
 ---
 
-![Craneo Frontal](/public/assets/images/CraneoGato/catSkullFrontal.png)
-![Craneo Caudal](/public/assets/images/CraneoGato/catskullCaudal.png)
-![Craneo Ventral](/public/assets/images/CraneoGato/catskullVentral.png)
-![Craneo Dorsal](/public/assets/images/CraneoGato/catSkullDorsal.png)
-
+![Craneo Frontal](../../../public/assets/images/CraneoGato/catSkullFrontal.png)
+![Craneo Caudal](../../../public/assets/images/CraneoGato/catskullCaudal.png)
+![Craneo Ventral](../../../public/assets/images/CraneoGato/catskullVentral.png)
+![Craneo Dorsal](../../../public/assets/images/CraneoGato/catSkullDorsal.png)
 
 
 [Imagenes del craneo by Kristen Roosa.](https://med.libretexts.org/Bookshelves/Anatomy_and_Physiology/Atlas_of_Comparative_Vertebrate_Anatomy/02:_Skeletal_systems/2.09:_Cat_skull)
@@ -68,7 +67,7 @@ Actualmente existen entre 36 y 41 especies asignadas en 8 linajes genotípicos d
 
 
 Para compararlo, podemos observar en [Evogeneao](https://www.evogeneao.com/) un diagráma acerca de las diversas especies en el siguiente [link](https://evogeneao.s3.amazonaws.com/assets/tree_of_life/locales/evo-spanish_3000.jpg)
-![Imagen del arbol de las especies](/public/assets/images/CraneoGato/evogeo-spanish.png)
+![Imagen del arbol de las especies](/assets/images/CraneoGato/evogeo-spanish.png)
 
 El proceso de hominización puede rastrearse hasta el *Ardipithecus*(~4.4 MA), *Autralopithecus*(~4 a 1 MA) y considerar al *Homo Sapiens* surgir hace ~175 000 años.
 

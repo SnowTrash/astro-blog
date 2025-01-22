@@ -23,4 +23,11 @@ https://lab.tresjs.org/
 #### Hacer post de Datos con R,Python,Tableau y Kaggle
 
 
+<!-- Revisadores de AI -->
+https://contentdetector.ai/
+https://www.zerogpt.com/
+https://www.scribbr.com/ai-detector/
+https://copyleaks.com/es/ai-content-detector
+
+
 ??? Hacer un listado de los links que quiero ver?
