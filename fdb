@@ -1,0 +1,85 @@
+[33mcommit ccae05f91e9c025366899c5ce7e15e27811b716c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Wed Jan 22 06:33:58 2025 -0600
+
+    feat(deply): firebase hosting
+
+[33mcommit f73a7f221f96e673ea48b624831d9fa2e490551c[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Wed Jan 22 06:17:33 2025 -0600
+
+    feat(spons): sponsors list posts
+
+[33mcommit a212dfb849130abd46af2c68114152a78d0045cd[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Mon Jul 8 18:52:17 2024 -0600
+
+    feat(info): se arreglaron posts
+
+[33mcommit 6b442c4ead1fbd2a1b01fd270ff0a75f9c22c3e1[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Sun May 5 14:40:38 2024 -0600
+
+    feat(posts): se agregaron posts y links, comenzar a escribir el blog YA
+
+[33mcommit 9b341efc963d434d48eafb6f23d2def1043ee283[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Wed May 1 08:30:21 2024 -0600
+
+    feat(cond_vuep5): se agrego un renderizado condicional a elementos p5 y three,mejorar con urgencia
+
+[33mcommit 483f8000498841cdb64179bfeb15366a5257ad80[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Tue Apr 30 03:15:32 2024 -0600
+
+    feat(fix): se arreglo ...page.astro
+
+[33mcommit 17d17545a77449557897391c9f8ad8b2f708f997[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Tue Apr 30 03:01:56 2024 -0600
+
+    feat(dates): se arreglaron las fechas para intentar buildear
+
+[33mcommit d6a1c7a39ca1ecf95ead58a6239269ea0f1b0994[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Tue Apr 30 02:43:10 2024 -0600
+
+    feat(p5): se agregó p5 al ruedo
+
+[33mcommit 67ab5e537e1a83a4178b8cc1e7e36f9456a6e9a5[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Mon Apr 22 00:52:43 2024 -0600
+
+    feat(paquetes): mejorar navegación principal
+    
+    Se agregó la librería TresCientos y Katex para construir los posts del blog
+
+[33mcommit 661b6ce13e928a9556a27f75f8c29eea516f5966[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Sun Mar 3 04:07:43 2024 -0600
+
+    model
+    
+    se añadio el modelo glb a la escena
+
+[33mcommit b4ebd69b75fed22127b8daa1d7f00847cdf9897f[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Sun Mar 3 02:26:01 2024 -0600
+
+    libs
+    
+    se agregaron librerias de 3d y Latex al blog, ademas de arreglar algunos pequeños issues
+
+[33mcommit 84b39b719aa9f08c70089a421de9297c8343d53f[m
+Author: SnowTrash <juan.vargas2962@alumnos.udg.mx>
+Date:   Sat Mar 2 19:05:16 2024 -0600
+
+    hw-Tresjs
+    
+    Hola mundo con TresJs , se crea una escena con un objeto 3D mediante Vue
+
+[33mcommit bc56a7081c08af7b610286fd8e77a17826d62234[m[33m ([m[1;34mgrafted[m[33m)[m
+Author: Rémi Weng <ixartz@users.noreply.github.com>
+Date:   Thu Feb 15 01:14:40 2024 +0100
+
+    chore: update README file

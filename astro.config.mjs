@@ -3,7 +3,6 @@ import react from '@astrojs/react';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import robotsTxt from 'astro-robots-txt';
-import { astroImageTools } from 'astro-imagetools';
 
 import vue from '@astrojs/vue';
 
@@ -27,6 +26,7 @@ export default defineConfig({
       theme: 'monokai',
     },
   },
+<<<<<<< HEAD
   integrations: [
     react(),
     tailwind({}),
@@ -38,4 +38,7 @@ export default defineConfig({
     }),
     mdx(),
   ],
+=======
+  integrations: [react(), tailwind({}), sitemap(), robotsTxt()],
+>>>>>>> 59205bc6cf56fd984c7ad1cb9f3e8ed86e0b3884
 });
